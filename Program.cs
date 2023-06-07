@@ -16,9 +16,6 @@ while (Mod < 10000 || Mod > 99999)
     Mod = Math.Abs(Num);
 }
 
-if (Num <0)
-{Num = -1* Num;}
-
 if ( (Num/10000)%10 == Num%10 && (Num/1000)%10 ==(Num/10)%10)
     Console.WriteLine($" Число {Num} является паллиндромом");
     else Console.WriteLine($" Число {Num} не является паллиндромом");
